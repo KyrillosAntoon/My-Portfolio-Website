@@ -7,11 +7,15 @@
 { 
     .row .col-sm-4
     {
-        padding-bottom: 100px;
+        padding-bottom: 0px !important;
     }
     #specialRow
     {
         padding-bottom: 0px !important;
+    }
+    #horizontalLine
+    {
+        display: block !important;
     }
 }
 
@@ -38,6 +42,10 @@
 @media (min-width: 1200px) 
 {
     
+}
+#horizontalLine
+{
+    display: none;
 }
 body
 {
