@@ -77,8 +77,6 @@ body
 .navbar .navbar-brand:hover
 {
     color: #FFF7CE;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
 }
 .navbar .navbar-nav
 {
@@ -157,7 +155,6 @@ body
     word-wrap: break-word;
     color: white;
     text-align: center;
-    
 }
 
 .jumbotron ul
