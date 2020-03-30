@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php index.html index.htm
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^kadeveloper.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.kadeveloper.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.kadeveloper.com/$1 [R=301,L]
+
