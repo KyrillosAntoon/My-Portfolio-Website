@@ -35,11 +35,11 @@
     {
         background-image: linear-gradient(to bottom, #7289da 70%, #FFF7CE 30% );
     }
-    #lastSVG path
+    #preProjectsSVG path
     {
         fill: #2D2D30;
     }
-    #lastSVG
+    #preProjectsSVG
     {
         background-color: #FFF7CE !important;
     }
@@ -77,12 +77,43 @@
     }
     #skillList
     {
-        background-image: linear-gradient(to bottom, #2D2D30 1% , #7289da) !important;
+        /*background-image: linear-gradient(to bottom, #FFF7CE 99% , #7289da);*/
+        background-color: #FFF7CE !important;
         padding-top: 50px;
-    }#skillList li
+    }
+    #skillList h2
+    {
+        color: #7289da;
+    }
+    #skillList li
     {
         position: absolute;
         left: 47%;
+        color: #2D2D30 !important;
+    }
+    #about .container
+    {
+        background-image: linear-gradient(to bottom, #7289da 70%, #FFF7CE 30% );
+    }
+    #preProjectsSVG path
+    {
+        fill: #2D2D30;
+    }
+    #preProjectsSVG
+    {
+        background-color: #FFF7CE !important;
+    }
+    #toolSVG
+    {
+        position: absolute;
+        left: 0;
+        top:-80px;
+        width: 100%;
+        display:block !important;
+    }
+    #toolSVG path
+    {
+        fill: #FFF7CE;
     }
 }
 /* Medium devices (tablets, 768px and up)*/
@@ -106,12 +137,13 @@
 }
 body
 {
+
     font-family: 'Roboto Condensed', sans-serif;
     color: transparent;
-    background-color: transparent;
     margin: 0;
     padding: 0;
-    background-color: #2D2D30;
+    height: 0px;
+
 }
 .navbar
 {
@@ -195,29 +227,28 @@ body
     transform: scaleX(1);
 }
 
-#navContent li a:visited, #resumeLink a:visited
+#navContent li a:visited, #resumeLink a:visited, #projects a:visited
 {
 	color: white ;
 	text-decoration: none;
 }
-#navContent li a:hover, #resumeLink a:hover
+#navContent li a:hover, #resumeLink a:hover, #projects a:hover
 {
 	color: #FFF7CE ;
     text-decoration: none;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
-#navContent li a, #resumeLink a
+#navContent li a, #resumeLink a, #projects a
 {
 	color:white ;
 	text-decoration: none;
 }
 #home
 {
-    padding-top: 50px;
     background-color: #2D2D30;
 }
-#home .jumbotron
+#home .jumbotron 
 {	
     background-color: #2D2D30;
     color: #FFF7CE;
@@ -231,6 +262,132 @@ body
     word-wrap: break-word;
     color: white;
     text-align: center;
+}
+#container1
+{
+    background-color: 	#33007b;
+}
+#container2
+{
+    background-color: #2E86C1;
+}
+#cSharp
+{
+    
+    background-color:#2D2D30 !important;
+}
+#cSharp .jumbotron 
+{	
+    background-image: linear-gradient(to bottom, #2D2D30 10% , #663399, #2D2D30 90%) !important;
+    /*background-color: 	#33007b;*/
+    color: #FFF7CE;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;  
+    height: 50%;
+}
+#cSharp .jumbotron p
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+#cSharp .jumbotron ul
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    font-size: medium;
+}
+#cPlusPlus
+{
+    /*background-image: linear-gradient(to bottom, #2D2D30 10% , #2E86C1, #2D2D30);*/
+    background-color: #2D2D30;
+}
+
+#cPlusPlus .jumbotron 
+{	
+    background-image: linear-gradient(to bottom, #2D2D30 10% , #2E86C1, #2D2D30 90%);
+    /*background-color: #2E86C1;*/
+    color: #FFF7CE;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;  
+    
+}
+#cPlusPlus .jumbotron p
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+#cPlusPlus .jumbotron ul
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    font-size: medium;
+}
+#htmlCSSJs
+{
+    /*background-image: linear-gradient(to bottom, #ff6500, #2D2D30 95%);*/
+    background-color: #2D2D30
+}
+
+#htmlCSSJs .jumbotron 
+{	
+    background-image: linear-gradient(to bottom, #2D2D30 10%, #ff6500, #2D2D30 90%);
+    color: #FFF7CE;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+#htmlCSSJs .jumbotron p
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+#htmlCSSJs .jumbotron ul
+{	
+    display: block;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    font-size: medium;
+}
+
+#projects
+{
+    color: white;
+    background-color: #2D2D30;
+    padding-bottom: 60px;
+    backface-visibility: hidden;
+
+}
+#projects h2
+{
+    pointer-events: none;
+}
+#projects h2 a
+{
+    pointer-events: visible;
+    backface-visibility: hidden;
+    transition: 0.3s ease-in-out ;
+    -webkit-transition: 0.3s ease-in-out;
+}
+#projects a:hover
+{
+    -webkit-transform: rotate(10deg) !important;
+    transform: rotate(10deg) !important;
 }
 #home .jumbotron ul
 {	
@@ -267,15 +424,11 @@ svg
     color: white;
     background-color: #2D2D30;
 }
-#lastSVG
+#preProjectsSVG
 {
     background-color: #7289da;
 }
-#projects
-{
-    background-color: #2D2D30;
-    padding-bottom: 60px;
-}
+
 h1, h2, h3
 {
     color: #FFF7CE;
@@ -289,12 +442,6 @@ h1, h2, h3
 #projectImage
 {
     opacity: 1;
-    border-style: inset;
-    border-color: #FFF7CE;
-    border-width: 0;
-    border-radius: 12px;
-    height: 400px;
-    box-sizing: border-box;
     -webkit-transition: .3s ease-in-out;
     transition: ease-in-out .3s;
     backface-visibility: hidden;
@@ -302,7 +449,7 @@ h1, h2, h3
 
 #projectImage:hover
 {
-    border-width: 4px;
+
     opacity: 0.5;
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
@@ -313,12 +460,12 @@ h1, h2, h3
     color: white;
     width: 120px !important;
     height: 120px;
+    border-radius: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 200px;
     background-color: transparent;
-    background-image:url('../Images/Github_Icon.jpg') !important;
+    background-image:url('../Images/GitHubIcon.png') !important;
     background-size: contain;
     background-repeat: no-repeat;
     backface-visibility: hidden;
@@ -343,7 +490,8 @@ h1, h2, h3
 #gitHubText
 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: #2D2D30;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,26 +526,9 @@ h1, h2, h3
 
 #footerContent a
 {
+    position: relative;
     transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
-}
-#footerContent a:before 
-{
-    display: flex;
-    content: "";
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 3%;
-    bottom: 25%;
-    left: 21%;
-	background-color: #FFF7CE ;
-	visibility: visible;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
 }
 #footerContent a:hover:before
 {
