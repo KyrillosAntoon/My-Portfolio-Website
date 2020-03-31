@@ -17,15 +17,32 @@
     }
     #skillList
     {
-        background-image: linear-gradient(to bottom, #2D2D30 1% , #7289da);
+        /*background-image: linear-gradient(to bottom, #FFF7CE 99% , #7289da);*/
+        background-color: #FFF7CE !important;
         padding-top: 50px;
     }
     #skillList li
     {
         position: absolute;
         left: 47%;
+        color: #2D2D30 !important;
     }
-
+    #skillList h2
+    {
+        color: #7289da;
+    }
+    #about .container
+    {
+        background-image: linear-gradient(to bottom, #7289da 70%, #FFF7CE 30% );
+    }
+    #lastSVG path
+    {
+        fill: #2D2D30;
+    }
+    #lastSVG
+    {
+        background-color: #FFF7CE !important;
+    }
     #toolSVG
     {
         position: absolute;
@@ -33,6 +50,10 @@
         top:-50px;
         width: 100%;
         display:block !important;
+    }
+    #toolSVG path
+    {
+        fill: #FFF7CE;
     }
     #hiddenDiv
     {
@@ -245,6 +266,10 @@ svg
 {
     color: white;
     background-color: #2D2D30;
+}
+#lastSVG
+{
+    background-color: #7289da;
 }
 #projects
 {
