@@ -1,7 +1,5 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
-
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 319px) and (max-width: 575px)
 { 
@@ -41,8 +39,6 @@
         margin-top: 100px;
     }
 }
-
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) 
 { 
@@ -68,19 +64,16 @@
         left: 47%;
     }
 }
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px)
 { 
 
 }
-
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) 
 { 
 
 }
-
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) 
 {
