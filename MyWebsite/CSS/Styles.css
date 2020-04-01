@@ -282,7 +282,7 @@ body
 }
 #cSharp .jumbotron 
 {	
-    background-image: linear-gradient(to bottom, #2D2D30 10% , #663399, #2D2D30 90%) !important;
+    background-image: linear-gradient(to bottom, #663399, #2D2D30 90%) !important;
     /*background-color: 	#33007b;*/
     color: #FFF7CE;
     text-align: center;
@@ -314,7 +314,7 @@ body
 
 #cPlusPlus .jumbotron 
 {	
-    background-image: linear-gradient(to bottom, #2D2D30 10% , #2E86C1, #2D2D30 90%);
+    background-image: linear-gradient(to bottom,  #2E86C1, #2D2D30 90%);
     /*background-color: #2E86C1;*/
     color: #FFF7CE;
     text-align: center;
@@ -346,7 +346,7 @@ body
 
 #htmlCSSJs .jumbotron 
 {	
-    background-image: linear-gradient(to bottom, #2D2D30 10%, #ff6500, #2D2D30 90%);
+    background-image: linear-gradient(to bottom, #ff6500, #2D2D30 90%);
     color: #FFF7CE;
     text-align: center;
     align-content: center;
