@@ -377,11 +377,11 @@ body
     backface-visibility: hidden;
 
 }
-#projects h2
+#projects h3
 {
     pointer-events: none;
 }
-#projects h2 a
+#projects h3 a
 {
     pointer-events: visible;
     backface-visibility: hidden;
